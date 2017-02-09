@@ -3,7 +3,8 @@ FROM docker:1.13
 ENV PACKAGES="\
 git \
 openssh-client \
-awscli"
+awscli \
+bash"
 
 RUN echo \
   # replacing default repositories with edge ones
