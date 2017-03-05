@@ -1,4 +1,4 @@
-FROM docker:1.13
+FROM docker:latest
 
 ENV PACKAGES="\
 git \
