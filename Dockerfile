@@ -1,8 +1,6 @@
 FROM docker:latest
 
 ENV PACKAGES="\
-git \
-openssh-client \
 awscli \
 bash"
 
